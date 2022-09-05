@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --color1: rgb(34, 7, 91);
+  --color1: rgb(55, 10, 151);
   --color2: rgb(98, 61, 218);
-  --color3: rgb(150, 161, 235);
+  --color3: rgb(0, 0, 0);
   --color4: rgb(128, 14, 137);
 }
 
@@ -43,20 +43,25 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color2);
+  background-color:  #310085;
   padding: 10px 30px;
   border-radius: 60px;
+  color: whitesmoke;
+  
 }
 
 .header .title {
   display: flex;
   align-items: center;
   gap: 10px;
+  color: whitesmoke;
+
 }
 
 .header .menu a {
   font-weight: 600;
-  color: black;
+  color: whitesmoke;
+
 }
 
 .content h1 span,
@@ -64,7 +69,8 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background-color: var(--color4);
+  background-color: antiquewhite;
+  
 }
 
 .content h1 {
@@ -81,21 +87,21 @@ button {
 .content .about {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 90%;
 }
 
 .content .about img {
   width: 500px;
   height: 500px;
   border-radius: 25px;
-  border: 15px solid var(--color3);
+  border: 15px solid rgb(11, 19, 116);
 }
 
 .content .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 .content .toolbar {
@@ -104,15 +110,16 @@ button {
 }
 
 .content .toolbar a {
-  background-color: var(--color3);
-  width: 100px;
+  background-color: rgb(15, 15, 117);
+  width: 300px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 700;
   box-shadow: 3px 3px 8px var(--color4);
+  color: whitesmoke;
 }
 
 .section {
@@ -150,6 +157,7 @@ button {
   display: flex;
   justify-content: space-around;
   border-top: 1px dotted gray;
+  text-align: center;
 }
 
 .button {
@@ -169,5 +177,5 @@ button {
 .button:hover{
   background-color: transparent;
   color: #4900c7;
-  border: 1px solid #4900c7;
+  border: 3px solid #4900c7;
 }
